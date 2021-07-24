@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87CA6D792E9573CA0E68E71D /* Pods_YmImagePicker_swfitui_tutorial_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA77677A9B70BABEB4E9F52 /* Pods_YmImagePicker_swfitui_tutorial_test.framework */; };
+		F28888C426AC0E18000B0E6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28888C326AC0E18000B0E6D /* AppDelegate.swift */; };
+		F28888C626AC0E18000B0E6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28888C526AC0E18000B0E6D /* SceneDelegate.swift */; };
+		F28888C826AC0E18000B0E6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28888C726AC0E18000B0E6D /* ContentView.swift */; };
+		F28888CA26AC0E19000B0E6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F28888C926AC0E19000B0E6D /* Assets.xcassets */; };
+		F28888CD26AC0E19000B0E6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F28888CC26AC0E19000B0E6D /* Preview Assets.xcassets */; };
+		F28888D026AC0E19000B0E6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F28888CE26AC0E19000B0E6D /* LaunchScreen.storyboard */; };
+		F28888D826AC115B000B0E6D /* YPImagePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28888D726AC115B000B0E6D /* YPImagePickerVC.swift */; };
+		F28888DB26AC1397000B0E6D /* YPImagePickerSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28888DA26AC1397000B0E6D /* YPImagePickerSwiftUIView.swift */; };
+		F28888DE26AC1B0C000B0E6D /* YPImagePickerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28888DD26AC1B0C000B0E6D /* YPImagePickerVM.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		409995F2A44B41CF08EF101C /* Pods-YmImagePicker-swfitui-tutorial-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YmImagePicker-swfitui-tutorial-test.release.xcconfig"; path = "Target Support Files/Pods-YmImagePicker-swfitui-tutorial-test/Pods-YmImagePicker-swfitui-tutorial-test.release.xcconfig"; sourceTree = "<group>"; };
+		796BF6FF882CB34DDE6494B8 /* Pods-YmImagePicker-swfitui-tutorial-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YmImagePicker-swfitui-tutorial-test.debug.xcconfig"; path = "Target Support Files/Pods-YmImagePicker-swfitui-tutorial-test/Pods-YmImagePicker-swfitui-tutorial-test.debug.xcconfig"; sourceTree = "<group>"; };
+		8AA77677A9B70BABEB4E9F52 /* Pods_YmImagePicker_swfitui_tutorial_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YmImagePicker_swfitui_tutorial_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28888C026AC0E18000B0E6D /* YmImagePicker-swfitui-tutorial-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YmImagePicker-swfitui-tutorial-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28888C326AC0E18000B0E6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F28888C526AC0E18000B0E6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F28888C726AC0E18000B0E6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F28888C926AC0E19000B0E6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F28888CC26AC0E19000B0E6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F28888CF26AC0E19000B0E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F28888D126AC0E19000B0E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F28888D726AC115B000B0E6D /* YPImagePickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPImagePickerVC.swift; sourceTree = "<group>"; };
+		F28888DA26AC1397000B0E6D /* YPImagePickerSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPImagePickerSwiftUIView.swift; sourceTree = "<group>"; };
+		F28888DD26AC1B0C000B0E6D /* YPImagePickerVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPImagePickerVM.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F28888BD26AC0E18000B0E6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CA6D792E9573CA0E68E71D /* Pods_YmImagePicker_swfitui_tutorial_test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5D7E627023636F41E05DC71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				796BF6FF882CB34DDE6494B8 /* Pods-YmImagePicker-swfitui-tutorial-test.debug.xcconfig */,
+				409995F2A44B41CF08EF101C /* Pods-YmImagePicker-swfitui-tutorial-test.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CD10D2F76FDD5819F4F5D06E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AA77677A9B70BABEB4E9F52 /* Pods_YmImagePicker_swfitui_tutorial_test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F28888B726AC0E18000B0E6D = {
+			isa = PBXGroup;
+			children = (
+				F28888C226AC0E18000B0E6D /* YmImagePicker-swfitui-tutorial-test */,
+				F28888C126AC0E18000B0E6D /* Products */,
+				B5D7E627023636F41E05DC71 /* Pods */,
+				CD10D2F76FDD5819F4F5D06E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F28888C126AC0E18000B0E6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F28888C026AC0E18000B0E6D /* YmImagePicker-swfitui-tutorial-test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F28888C226AC0E18000B0E6D /* YmImagePicker-swfitui-tutorial-test */ = {
+			isa = PBXGroup;
+			children = (
+				F28888DC26AC1AF7000B0E6D /* ViewModel */,
+				F28888D926AC137E000B0E6D /* UIKit */,
+				F28888C326AC0E18000B0E6D /* AppDelegate.swift */,
+				F28888C526AC0E18000B0E6D /* SceneDelegate.swift */,
+				F28888DA26AC1397000B0E6D /* YPImagePickerSwiftUIView.swift */,
+				F28888C726AC0E18000B0E6D /* ContentView.swift */,
+				F28888C926AC0E19000B0E6D /* Assets.xcassets */,
+				F28888CE26AC0E19000B0E6D /* LaunchScreen.storyboard */,
+				F28888D126AC0E19000B0E6D /* Info.plist */,
+				F28888CB26AC0E19000B0E6D /* Preview Content */,
+			);
+			path = "YmImagePicker-swfitui-tutorial-test";
+			sourceTree = "<group>";
+		};
+		F28888CB26AC0E19000B0E6D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F28888CC26AC0E19000B0E6D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F28888D926AC137E000B0E6D /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				F28888D726AC115B000B0E6D /* YPImagePickerVC.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		F28888DC26AC1AF7000B0E6D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F28888DD26AC1B0C000B0E6D /* YPImagePickerVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F28888BF26AC0E18000B0E6D /* YmImagePicker-swfitui-tutorial-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28888D426AC0E19000B0E6D /* Build configuration list for PBXNativeTarget "YmImagePicker-swfitui-tutorial-test" */;
+			buildPhases = (
+				795F8FD4963282C9F3BC4388 /* [CP] Check Pods Manifest.lock */,
+				F28888BC26AC0E18000B0E6D /* Sources */,
+				F28888BD26AC0E18000B0E6D /* Frameworks */,
+				F28888BE26AC0E18000B0E6D /* Resources */,
+				BD655112CBA9FC35215AA6E7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YmImagePicker-swfitui-tutorial-test";
+			productName = "YmImagePicker-swfitui-tutorial-test";
+			productReference = F28888C026AC0E18000B0E6D /* YmImagePicker-swfitui-tutorial-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F28888B826AC0E18000B0E6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F28888BF26AC0E18000B0E6D = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = F28888BB26AC0E18000B0E6D /* Build configuration list for PBXProject "YmImagePicker-swfitui-tutorial-test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F28888B726AC0E18000B0E6D;
+			productRefGroup = F28888C126AC0E18000B0E6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F28888BF26AC0E18000B0E6D /* YmImagePicker-swfitui-tutorial-test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F28888BE26AC0E18000B0E6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28888D026AC0E19000B0E6D /* LaunchScreen.storyboard in Resources */,
+				F28888CD26AC0E19000B0E6D /* Preview Assets.xcassets in Resources */,
+				F28888CA26AC0E19000B0E6D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		795F8FD4963282C9F3BC4388 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YmImagePicker-swfitui-tutorial-test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD655112CBA9FC35215AA6E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YmImagePicker-swfitui-tutorial-test/Pods-YmImagePicker-swfitui-tutorial-test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YmImagePicker-swfitui-tutorial-test/Pods-YmImagePicker-swfitui-tutorial-test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YmImagePicker-swfitui-tutorial-test/Pods-YmImagePicker-swfitui-tutorial-test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F28888BC26AC0E18000B0E6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28888DB26AC1397000B0E6D /* YPImagePickerSwiftUIView.swift in Sources */,
+				F28888C426AC0E18000B0E6D /* AppDelegate.swift in Sources */,
+				F28888C626AC0E18000B0E6D /* SceneDelegate.swift in Sources */,
+				F28888C826AC0E18000B0E6D /* ContentView.swift in Sources */,
+				F28888D826AC115B000B0E6D /* YPImagePickerVC.swift in Sources */,
+				F28888DE26AC1B0C000B0E6D /* YPImagePickerVM.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F28888CE26AC0E19000B0E6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F28888CF26AC0E19000B0E6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F28888D226AC0E19000B0E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F28888D326AC0E19000B0E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F28888D526AC0E19000B0E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 796BF6FF882CB34DDE6494B8 /* Pods-YmImagePicker-swfitui-tutorial-test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"YmImagePicker-swfitui-tutorial-test/Preview Content\"";
+				DEVELOPMENT_TEAM = 67XDG42679;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "YmImagePicker-swfitui-tutorial-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tuentuenna.YmImagePicker-swfitui-tutorial-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F28888D626AC0E19000B0E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409995F2A44B41CF08EF101C /* Pods-YmImagePicker-swfitui-tutorial-test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"YmImagePicker-swfitui-tutorial-test/Preview Content\"";
+				DEVELOPMENT_TEAM = 67XDG42679;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "YmImagePicker-swfitui-tutorial-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tuentuenna.YmImagePicker-swfitui-tutorial-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F28888BB26AC0E18000B0E6D /* Build configuration list for PBXProject "YmImagePicker-swfitui-tutorial-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28888D226AC0E19000B0E6D /* Debug */,
+				F28888D326AC0E19000B0E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F28888D426AC0E19000B0E6D /* Build configuration list for PBXNativeTarget "YmImagePicker-swfitui-tutorial-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28888D526AC0E19000B0E6D /* Debug */,
+				F28888D626AC0E19000B0E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F28888B826AC0E18000B0E6D /* Project object */;
+}
